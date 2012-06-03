@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0303B4E915548A8F00A995CF /* raven.png in Resources */ = {isa = PBXBuildFile; fileRef = 0303B4E815548A8F00A995CF /* raven.png */; };
+		0303B4F215569B8700A995CF /* cube001_blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0303B4EC15569B8700A995CF /* cube001_blue.jpg */; };
+		0303B4F315569B8700A995CF /* cube001_green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0303B4ED15569B8700A995CF /* cube001_green.jpg */; };
+		0303B4F415569B8700A995CF /* cube001_cyan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0303B4EE15569B8700A995CF /* cube001_cyan.jpg */; };
+		0303B4F515569B8700A995CF /* cube001_yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0303B4EF15569B8700A995CF /* cube001_yellow.jpg */; };
+		0303B4F615569B8700A995CF /* cube001_red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0303B4F015569B8700A995CF /* cube001_red.jpg */; };
+		0303B4F715569B8700A995CF /* cube001_orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0303B4F115569B8700A995CF /* cube001_orange.jpg */; };
+		0303B4FB1556A7FB00A995CF /* NSColor+OpenGLEnabled.m in Sources */ = {isa = PBXBuildFile; fileRef = 0303B4FA1556A7FB00A995CF /* NSColor+OpenGLEnabled.m */; };
+		0303B4FE1556D8F500A995CF /* MyRainbowCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 0303B4FD1556D8F500A995CF /* MyRainbowCube.m */; };
+		031A2D5814FEEC36000619F3 /* MyListGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031A2D5714FEEC36000619F3 /* MyListGameController.m */; };
+		032E86DA14F064E70066976C /* MyGamePadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E86D914F064E70066976C /* MyGamePadGameController.m */; };
+		032E86DD14F068930066976C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032E86DC14F068930066976C /* IOKit.framework */; };
+		03325BB21544649C00D746F0 /* Coffee.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03325BB11544649C00D746F0 /* Coffee.ttf */; };
+		03A3EC90150817590089ACDC /* MyKeyboardGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A3EC8F150817590089ACDC /* MyKeyboardGameController.m */; };
+		03A3EC9415081CD10089ACDC /* MyMouseGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A3EC9315081CD10089ACDC /* MyMouseGameController.m */; };
+		03B8A50614C32F7300426855 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B8A50514C32F7300426855 /* Cocoa.framework */; };
+		03B8A51014C32F7300426855 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B8A50E14C32F7300426855 /* InfoPlist.strings */; };
+		03B8A51214C32F7300426855 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B8A51114C32F7300426855 /* main.m */; };
+		03B8A51614C32F7300426855 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03B8A51414C32F7300426855 /* Credits.rtf */; };
+		03B8A51914C32F7300426855 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B8A51814C32F7300426855 /* AppDelegate.m */; };
+		03B8A51C14C32F7400426855 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B8A51A14C32F7400426855 /* MainMenu.xib */; };
+		03B8A52314C3375500426855 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B8A52214C3375500426855 /* OpenGL.framework */; };
+		03B8A52614C337D100426855 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B8A52514C337D100426855 /* MyOpenGLView.m */; };
+		03E791FE14D36EB7007364AF /* satellite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03E791FD14D36EB7007364AF /* satellite.wav */; };
+		03E7920114D36FA7007364AF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E7920014D36FA7007364AF /* OpenAL.framework */; };
+		03E7920314D48439007364AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E7920214D48439007364AF /* AudioToolbox.framework */; };
+		03E7920514D4AA34007364AF /* Farewell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03E7920414D4AA34007364AF /* Farewell.wav */; };
+		03F30ED414C8ADE700DAB249 /* game.dev.diary.01.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F30ED314C8ADE700DAB249 /* game.dev.diary.01.png */; };
+		03F30EEC14C8B76200DAB249 /* MyCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F30EEB14C8B76200DAB249 /* MyCube.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0303B4E815548A8F00A995CF /* raven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raven.png; sourceTree = "<group>"; };
+		0303B4EC15569B8700A995CF /* cube001_blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube001_blue.jpg; sourceTree = "<group>"; };
+		0303B4ED15569B8700A995CF /* cube001_green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube001_green.jpg; sourceTree = "<group>"; };
+		0303B4EE15569B8700A995CF /* cube001_cyan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube001_cyan.jpg; sourceTree = "<group>"; };
+		0303B4EF15569B8700A995CF /* cube001_yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube001_yellow.jpg; sourceTree = "<group>"; };
+		0303B4F015569B8700A995CF /* cube001_red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube001_red.jpg; sourceTree = "<group>"; };
+		0303B4F115569B8700A995CF /* cube001_orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube001_orange.jpg; sourceTree = "<group>"; };
+		0303B4F91556A7FA00A995CF /* NSColor+OpenGLEnabled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+OpenGLEnabled.h"; sourceTree = "<group>"; };
+		0303B4FA1556A7FB00A995CF /* NSColor+OpenGLEnabled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+OpenGLEnabled.m"; sourceTree = "<group>"; };
+		0303B4FC1556D8F500A995CF /* MyRainbowCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRainbowCube.h; sourceTree = "<group>"; };
+		0303B4FD1556D8F500A995CF /* MyRainbowCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRainbowCube.m; sourceTree = "<group>"; };
+		031A2D5314FEE446000619F3 /* MyGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGameController.h; sourceTree = "<group>"; };
+		031A2D5614FEEC36000619F3 /* MyListGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyListGameController.h; sourceTree = "<group>"; };
+		031A2D5714FEEC36000619F3 /* MyListGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListGameController.m; sourceTree = "<group>"; };
+		032E86D814F064E70066976C /* MyGamePadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGamePadGameController.h; sourceTree = "<group>"; };
+		032E86D914F064E70066976C /* MyGamePadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGamePadGameController.m; sourceTree = "<group>"; };
+		032E86DC14F068930066976C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		03325BB11544649C00D746F0 /* Coffee.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coffee.ttf; sourceTree = "<group>"; };
+		03A3EC8E150817590089ACDC /* MyKeyboardGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKeyboardGameController.h; sourceTree = "<group>"; };
+		03A3EC8F150817590089ACDC /* MyKeyboardGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKeyboardGameController.m; sourceTree = "<group>"; };
+		03A3EC9215081CD10089ACDC /* MyMouseGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMouseGameController.h; sourceTree = "<group>"; };
+		03A3EC9315081CD10089ACDC /* MyMouseGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMouseGameController.m; sourceTree = "<group>"; };
+		03B8A50114C32F7300426855 /* GameDevDiary1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameDevDiary1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B8A50514C32F7300426855 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03B8A50814C32F7300426855 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03B8A50914C32F7300426855 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03B8A50A14C32F7300426855 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03B8A50D14C32F7300426855 /* GameDevDiary1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameDevDiary1-Info.plist"; sourceTree = "<group>"; };
+		03B8A50F14C32F7300426855 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03B8A51114C32F7300426855 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03B8A51314C32F7300426855 /* GameDevDiary1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameDevDiary1-Prefix.pch"; sourceTree = "<group>"; };
+		03B8A51514C32F7300426855 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03B8A51714C32F7300426855 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03B8A51814C32F7300426855 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03B8A51B14C32F7400426855 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03B8A52214C3375500426855 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		03B8A52414C337D100426855 /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		03B8A52514C337D100426855 /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		03E791FD14D36EB7007364AF /* satellite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = satellite.wav; path = ../../../../Downloads/satellite.wav; sourceTree = "<group>"; };
+		03E7920014D36FA7007364AF /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		03E7920214D48439007364AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		03E7920414D4AA34007364AF /* Farewell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Farewell.wav; path = ../../../../Downloads/Farewell.wav; sourceTree = "<group>"; };
+		03F30ED314C8ADE700DAB249 /* game.dev.diary.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.dev.diary.01.png; sourceTree = "<group>"; };
+		03F30EEA14C8B76200DAB249 /* MyCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCube.h; sourceTree = "<group>"; };
+		03F30EEB14C8B76200DAB249 /* MyCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCube.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B8A4FE14C32F7300426855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032E86DD14F068930066976C /* IOKit.framework in Frameworks */,
+				03E7920314D48439007364AF /* AudioToolbox.framework in Frameworks */,
+				03E7920114D36FA7007364AF /* OpenAL.framework in Frameworks */,
+				03B8A52314C3375500426855 /* OpenGL.framework in Frameworks */,
+				03B8A50614C32F7300426855 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0303B4EB1555202200A995CF /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				03B8A51814C32F7300426855 /* AppDelegate.m */,
+				03B8A52514C337D100426855 /* MyOpenGLView.m */,
+				03F30EEB14C8B76200DAB249 /* MyCube.m */,
+				032E86D914F064E70066976C /* MyGamePadGameController.m */,
+				03A3EC8F150817590089ACDC /* MyKeyboardGameController.m */,
+				031A2D5714FEEC36000619F3 /* MyListGameController.m */,
+				03A3EC9315081CD10089ACDC /* MyMouseGameController.m */,
+				0303B4FD1556D8F500A995CF /* MyRainbowCube.m */,
+				0303B4FA1556A7FB00A995CF /* NSColor+OpenGLEnabled.m */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+		0303B4F815569B9600A995CF /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				0303B4EC15569B8700A995CF /* cube001_blue.jpg */,
+				0303B4ED15569B8700A995CF /* cube001_green.jpg */,
+				0303B4EE15569B8700A995CF /* cube001_cyan.jpg */,
+				0303B4EF15569B8700A995CF /* cube001_yellow.jpg */,
+				0303B4F015569B8700A995CF /* cube001_red.jpg */,
+				0303B4F115569B8700A995CF /* cube001_orange.jpg */,
+			);
+			name = textures;
+			sourceTree = "<group>";
+		};
+		03B8A4F614C32F7300426855 = {
+			isa = PBXGroup;
+			children = (
+				032E86DC14F068930066976C /* IOKit.framework */,
+				03E7920214D48439007364AF /* AudioToolbox.framework */,
+				03E7920014D36FA7007364AF /* OpenAL.framework */,
+				03F30ED314C8ADE700DAB249 /* game.dev.diary.01.png */,
+				03B8A52214C3375500426855 /* OpenGL.framework */,
+				03B8A50B14C32F7300426855 /* GameDevDiary1 */,
+				03B8A50414C32F7300426855 /* Frameworks */,
+				03B8A50214C32F7300426855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B8A50214C32F7300426855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B8A50114C32F7300426855 /* GameDevDiary1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B8A50414C32F7300426855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B8A50514C32F7300426855 /* Cocoa.framework */,
+				03B8A50714C32F7300426855 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B8A50714C32F7300426855 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B8A50814C32F7300426855 /* AppKit.framework */,
+				03B8A50914C32F7300426855 /* CoreData.framework */,
+				03B8A50A14C32F7300426855 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03B8A50B14C32F7300426855 /* GameDevDiary1 */ = {
+			isa = PBXGroup;
+			children = (
+				03B8A51714C32F7300426855 /* AppDelegate.h */,
+				0303B4EB1555202200A995CF /* impl */,
+				03B8A51A14C32F7400426855 /* MainMenu.xib */,
+				03B8A50C14C32F7300426855 /* Supporting Files */,
+				03B8A52414C337D100426855 /* MyOpenGLView.h */,
+				03F30EEA14C8B76200DAB249 /* MyCube.h */,
+				032E86D814F064E70066976C /* MyGamePadGameController.h */,
+				03A3EC8E150817590089ACDC /* MyKeyboardGameController.h */,
+				031A2D5314FEE446000619F3 /* MyGameController.h */,
+				031A2D5614FEEC36000619F3 /* MyListGameController.h */,
+				03A3EC9215081CD10089ACDC /* MyMouseGameController.h */,
+				0303B4FC1556D8F500A995CF /* MyRainbowCube.h */,
+				0303B4F91556A7FA00A995CF /* NSColor+OpenGLEnabled.h */,
+			);
+			path = GameDevDiary1;
+			sourceTree = "<group>";
+		};
+		03B8A50C14C32F7300426855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0303B4F815569B9600A995CF /* textures */,
+				0303B4E815548A8F00A995CF /* raven.png */,
+				03325BB11544649C00D746F0 /* Coffee.ttf */,
+				03E7920414D4AA34007364AF /* Farewell.wav */,
+				03E791FD14D36EB7007364AF /* satellite.wav */,
+				03B8A50D14C32F7300426855 /* GameDevDiary1-Info.plist */,
+				03B8A50E14C32F7300426855 /* InfoPlist.strings */,
+				03B8A51114C32F7300426855 /* main.m */,
+				03B8A51314C32F7300426855 /* GameDevDiary1-Prefix.pch */,
+				03B8A51414C32F7300426855 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B8A50014C32F7300426855 /* GameDevDiary1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B8A51F14C32F7400426855 /* Build configuration list for PBXNativeTarget "GameDevDiary1" */;
+			buildPhases = (
+				03B8A4FD14C32F7300426855 /* Sources */,
+				03B8A4FE14C32F7300426855 /* Frameworks */,
+				03B8A4FF14C32F7300426855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameDevDiary1;
+			productName = GameDevDiary1;
+			productReference = 03B8A50114C32F7300426855 /* GameDevDiary1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B8A4F814C32F7300426855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 03B8A4FB14C32F7300426855 /* Build configuration list for PBXProject "GameDevDiary1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03B8A4F614C32F7300426855;
+			productRefGroup = 03B8A50214C32F7300426855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B8A50014C32F7300426855 /* GameDevDiary1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B8A4FF14C32F7300426855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8A51014C32F7300426855 /* InfoPlist.strings in Resources */,
+				03B8A51614C32F7300426855 /* Credits.rtf in Resources */,
+				03B8A51C14C32F7400426855 /* MainMenu.xib in Resources */,
+				03F30ED414C8ADE700DAB249 /* game.dev.diary.01.png in Resources */,
+				03E791FE14D36EB7007364AF /* satellite.wav in Resources */,
+				03E7920514D4AA34007364AF /* Farewell.wav in Resources */,
+				03325BB21544649C00D746F0 /* Coffee.ttf in Resources */,
+				0303B4E915548A8F00A995CF /* raven.png in Resources */,
+				0303B4F215569B8700A995CF /* cube001_blue.jpg in Resources */,
+				0303B4F315569B8700A995CF /* cube001_green.jpg in Resources */,
+				0303B4F415569B8700A995CF /* cube001_cyan.jpg in Resources */,
+				0303B4F515569B8700A995CF /* cube001_yellow.jpg in Resources */,
+				0303B4F615569B8700A995CF /* cube001_red.jpg in Resources */,
+				0303B4F715569B8700A995CF /* cube001_orange.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B8A4FD14C32F7300426855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8A51214C32F7300426855 /* main.m in Sources */,
+				03B8A51914C32F7300426855 /* AppDelegate.m in Sources */,
+				03B8A52614C337D100426855 /* MyOpenGLView.m in Sources */,
+				03F30EEC14C8B76200DAB249 /* MyCube.m in Sources */,
+				032E86DA14F064E70066976C /* MyGamePadGameController.m in Sources */,
+				031A2D5814FEEC36000619F3 /* MyListGameController.m in Sources */,
+				03A3EC90150817590089ACDC /* MyKeyboardGameController.m in Sources */,
+				03A3EC9415081CD10089ACDC /* MyMouseGameController.m in Sources */,
+				0303B4FB1556A7FB00A995CF /* NSColor+OpenGLEnabled.m in Sources */,
+				0303B4FE1556D8F500A995CF /* MyRainbowCube.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03B8A50E14C32F7300426855 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B8A50F14C32F7300426855 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03B8A51414C32F7300426855 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B8A51514C32F7300426855 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03B8A51A14C32F7400426855 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B8A51B14C32F7400426855 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B8A51D14C32F7400426855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03B8A51E14C32F7400426855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03B8A52014C32F7400426855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameDevDiary1/GameDevDiary1-Prefix.pch";
+				INFOPLIST_FILE = "GameDevDiary1/GameDevDiary1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03B8A52114C32F7400426855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameDevDiary1/GameDevDiary1-Prefix.pch";
+				INFOPLIST_FILE = "GameDevDiary1/GameDevDiary1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B8A4FB14C32F7300426855 /* Build configuration list for PBXProject "GameDevDiary1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B8A51D14C32F7400426855 /* Debug */,
+				03B8A51E14C32F7400426855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B8A51F14C32F7400426855 /* Build configuration list for PBXNativeTarget "GameDevDiary1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B8A52014C32F7400426855 /* Debug */,
+				03B8A52114C32F7400426855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B8A4F814C32F7300426855 /* Project object */;
+}
