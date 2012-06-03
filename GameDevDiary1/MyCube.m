@@ -26,8 +26,6 @@
 }
 
 - (void)drawVertices{
-    if (!baseColor)
-        [self setBaseColor:[NSColor grayColor]];
     
     glDisable(GL_TEXTURE_2D);
     glBegin(GL_QUADS); 
@@ -76,6 +74,8 @@
     float s = scale*.5;
     
     glScalef(s, s, s);
+    if (!baseColor)
+        [self setBaseColor:[NSColor grayColor]];
     [self drawVertices];
     glPopMatrix();
 }

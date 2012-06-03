@@ -18,6 +18,7 @@
 #import "MyMouseGameController.h"
 #import "MyListGameController.h"
 #import "MyRainbowCube.h"
+#import "MyTexturedCube.h"
 
 @implementation MyOpenGLView
 
@@ -31,11 +32,13 @@
 
 - (void)awakeFromNib{
     lastTicks = clock();
-    self.mainCube = [[MyCube alloc] init];
+    self.mainCube = [[MyTexturedCube alloc] init];
     self.flyingCube = [[MyRainbowCube alloc] init];
     [mainCube setScale:1];
     [mainCube setPositionX:0 Y:0 Z:0];
-    [mainCube setBaseColor:[NSColor greenColor]];
+    [mainCube setBaseColor:[NSColor whiteColor]];
+    
+    [(MyTexturedCube*)mainCube setTexture:[NSImage imageNamed:@"yakety.png"]];
     [flyingCube setScale:.2];
     [flyingCube setPositionX:5 Y:0 Z:0];
     cameraLat = 10;

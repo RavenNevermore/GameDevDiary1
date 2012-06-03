@@ -20,6 +20,9 @@
 		032E86DA14F064E70066976C /* MyGamePadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E86D914F064E70066976C /* MyGamePadGameController.m */; };
 		032E86DD14F068930066976C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032E86DC14F068930066976C /* IOKit.framework */; };
 		03325BB21544649C00D746F0 /* Coffee.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03325BB11544649C00D746F0 /* Coffee.ttf */; };
+		039BF0A5157BDE56005CFC09 /* MyTexturedCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF0A4157BDE56005CFC09 /* MyTexturedCube.m */; };
+		039BF0A8157BE80C005CFC09 /* cube001_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 039BF0A7157BE80C005CFC09 /* cube001_red.png */; };
+		039BF0AA157BE969005CFC09 /* yakety.png in Resources */ = {isa = PBXBuildFile; fileRef = 039BF0A9157BE969005CFC09 /* yakety.png */; };
 		03A3EC90150817590089ACDC /* MyKeyboardGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A3EC8F150817590089ACDC /* MyKeyboardGameController.m */; };
 		03A3EC9415081CD10089ACDC /* MyMouseGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A3EC9315081CD10089ACDC /* MyMouseGameController.m */; };
 		03B8A50614C32F7300426855 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B8A50514C32F7300426855 /* Cocoa.framework */; };
@@ -57,6 +60,10 @@
 		032E86D914F064E70066976C /* MyGamePadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGamePadGameController.m; sourceTree = "<group>"; };
 		032E86DC14F068930066976C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		03325BB11544649C00D746F0 /* Coffee.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coffee.ttf; sourceTree = "<group>"; };
+		039BF0A3157BDE56005CFC09 /* MyTexturedCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTexturedCube.h; sourceTree = "<group>"; };
+		039BF0A4157BDE56005CFC09 /* MyTexturedCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTexturedCube.m; sourceTree = "<group>"; };
+		039BF0A7157BE80C005CFC09 /* cube001_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cube001_red.png; sourceTree = "<group>"; };
+		039BF0A9157BE969005CFC09 /* yakety.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yakety.png; sourceTree = "<group>"; };
 		03A3EC8E150817590089ACDC /* MyKeyboardGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKeyboardGameController.h; sourceTree = "<group>"; };
 		03A3EC8F150817590089ACDC /* MyKeyboardGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKeyboardGameController.m; sourceTree = "<group>"; };
 		03A3EC9215081CD10089ACDC /* MyMouseGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMouseGameController.h; sourceTree = "<group>"; };
@@ -108,11 +115,12 @@
 				03B8A51814C32F7300426855 /* AppDelegate.m */,
 				03B8A52514C337D100426855 /* MyOpenGLView.m */,
 				03F30EEB14C8B76200DAB249 /* MyCube.m */,
+				0303B4FD1556D8F500A995CF /* MyRainbowCube.m */,
+				039BF0A4157BDE56005CFC09 /* MyTexturedCube.m */,
 				032E86D914F064E70066976C /* MyGamePadGameController.m */,
 				03A3EC8F150817590089ACDC /* MyKeyboardGameController.m */,
 				031A2D5714FEEC36000619F3 /* MyListGameController.m */,
 				03A3EC9315081CD10089ACDC /* MyMouseGameController.m */,
-				0303B4FD1556D8F500A995CF /* MyRainbowCube.m */,
 				0303B4FA1556A7FB00A995CF /* NSColor+OpenGLEnabled.m */,
 			);
 			name = impl;
@@ -121,6 +129,8 @@
 		0303B4F815569B9600A995CF /* textures */ = {
 			isa = PBXGroup;
 			children = (
+				039BF0A9157BE969005CFC09 /* yakety.png */,
+				039BF0A7157BE80C005CFC09 /* cube001_red.png */,
 				0303B4EC15569B8700A995CF /* cube001_blue.jpg */,
 				0303B4ED15569B8700A995CF /* cube001_green.jpg */,
 				0303B4EE15569B8700A995CF /* cube001_cyan.jpg */,
@@ -188,6 +198,7 @@
 				03A3EC9215081CD10089ACDC /* MyMouseGameController.h */,
 				0303B4FC1556D8F500A995CF /* MyRainbowCube.h */,
 				0303B4F91556A7FA00A995CF /* NSColor+OpenGLEnabled.h */,
+				039BF0A3157BDE56005CFC09 /* MyTexturedCube.h */,
 			);
 			path = GameDevDiary1;
 			sourceTree = "<group>";
@@ -273,6 +284,8 @@
 				0303B4F515569B8700A995CF /* cube001_yellow.jpg in Resources */,
 				0303B4F615569B8700A995CF /* cube001_red.jpg in Resources */,
 				0303B4F715569B8700A995CF /* cube001_orange.jpg in Resources */,
+				039BF0A8157BE80C005CFC09 /* cube001_red.png in Resources */,
+				039BF0AA157BE969005CFC09 /* yakety.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +306,7 @@
 				03A3EC9415081CD10089ACDC /* MyMouseGameController.m in Sources */,
 				0303B4FB1556A7FB00A995CF /* NSColor+OpenGLEnabled.m in Sources */,
 				0303B4FE1556D8F500A995CF /* MyRainbowCube.m in Sources */,
+				039BF0A5157BDE56005CFC09 /* MyTexturedCube.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
