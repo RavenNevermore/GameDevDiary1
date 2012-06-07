@@ -38,9 +38,6 @@
         float dx = ax;
         float dy = cy;
         
-        NSLog(@"%f | %f  :  %f | %f  :  %f | %f  :  %f | %f",
-              ax, ay, bx, by, cx, cy, dx, dy);
-        
         int x = 8 * i;
         coords[0+x] = dx; coords[1+x] = dy;
         coords[2+x] = cx; coords[3+x] = cy;
