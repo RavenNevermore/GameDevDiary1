@@ -64,7 +64,6 @@
     [[self window] setAcceptsMouseMovedEvents:YES];
     
     
-    
     [super awakeFromNib];
 }
 
