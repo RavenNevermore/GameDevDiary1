@@ -20,6 +20,7 @@
 		032E86DA14F064E70066976C /* MyGamePadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E86D914F064E70066976C /* MyGamePadGameController.m */; };
 		032E86DD14F068930066976C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032E86DC14F068930066976C /* IOKit.framework */; };
 		03325BB21544649C00D746F0 /* Coffee.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03325BB11544649C00D746F0 /* Coffee.ttf */; };
+		036AE4E11580BDC60002F57B /* cube_tex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 036AE4E01580BDC60002F57B /* cube_tex.jpg */; };
 		039BF0A5157BDE56005CFC09 /* MyTexturedCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF0A4157BDE56005CFC09 /* MyTexturedCube.m */; };
 		039BF0A8157BE80C005CFC09 /* cube001_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 039BF0A7157BE80C005CFC09 /* cube001_red.png */; };
 		039BF0AA157BE969005CFC09 /* yakety.png in Resources */ = {isa = PBXBuildFile; fileRef = 039BF0A9157BE969005CFC09 /* yakety.png */; };
@@ -60,6 +61,7 @@
 		032E86D914F064E70066976C /* MyGamePadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGamePadGameController.m; sourceTree = "<group>"; };
 		032E86DC14F068930066976C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		03325BB11544649C00D746F0 /* Coffee.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coffee.ttf; sourceTree = "<group>"; };
+		036AE4E01580BDC60002F57B /* cube_tex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube_tex.jpg; sourceTree = "<group>"; };
 		039BF0A3157BDE56005CFC09 /* MyTexturedCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTexturedCube.h; sourceTree = "<group>"; };
 		039BF0A4157BDE56005CFC09 /* MyTexturedCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTexturedCube.m; sourceTree = "<group>"; };
 		039BF0A7157BE80C005CFC09 /* cube001_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cube001_red.png; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		0303B4F815569B9600A995CF /* textures */ = {
 			isa = PBXGroup;
 			children = (
+				036AE4E01580BDC60002F57B /* cube_tex.jpg */,
 				039BF0A9157BE969005CFC09 /* yakety.png */,
 				039BF0A7157BE80C005CFC09 /* cube001_red.png */,
 				0303B4EC15569B8700A995CF /* cube001_blue.jpg */,
@@ -286,6 +289,7 @@
 				0303B4F715569B8700A995CF /* cube001_orange.jpg in Resources */,
 				039BF0A8157BE80C005CFC09 /* cube001_red.png in Resources */,
 				039BF0AA157BE969005CFC09 /* yakety.png in Resources */,
+				036AE4E11580BDC60002F57B /* cube_tex.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

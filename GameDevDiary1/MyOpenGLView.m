@@ -38,7 +38,8 @@
     [mainCube setPositionX:0 Y:0 Z:0];
     [mainCube setBaseColor:[NSColor whiteColor]];
     
-    [(MyTexturedCube*)mainCube setTexture:[NSImage imageNamed:@"yakety.png"]];
+    [(MyTexturedCube*)mainCube setTexture:[NSImage imageNamed:@"cube_tex.jpg"] 
+                          withCoordinates:[MyTexturedCube threeByTwoCoords]];
     [flyingCube setScale:.2];
     [flyingCube setPositionX:5 Y:0 Z:0];
     cameraLat = 10;
@@ -308,7 +309,6 @@
     if (axisVisible)
         [self drawAxis];
     
-    NSLog(@"-- %@ --", [mainCube baseColor]);
     [mainCube draw];
     [flyingCube draw];
     

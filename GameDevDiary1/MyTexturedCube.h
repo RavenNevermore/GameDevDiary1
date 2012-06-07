@@ -12,8 +12,13 @@
 @interface MyTexturedCube : MyCube {
     GLuint textureIndex;
     NSImage* _texture;
+    float textureCoords[48];
 }
 
++ (float*)defaultTextureCoords;
++ (float*)threeByTwoCoords;
+
 @property (assign) NSImage* texture;
+- (void)setTexture:(NSImage *)texture withCoordinates:(float[48]) coords;
 
 @end
